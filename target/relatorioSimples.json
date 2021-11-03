@@ -1,0 +1,104 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1872691900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.setup()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Tela Inicial e de resultado de pesquisa",
+        "description": "",
+        "id": "validar-site-da-wikipedia;tela-inicial-e-de-resultado-de-pesquisa",
+        "after": [
+          {
+            "result": {
+              "duration": 14900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hook.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2124634200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "abriu o site",
+            "match": {
+              "location": "PaginaPrincipal.abriuOSite()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 87012900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "preencheu o campo de busca com \"Natal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Natal",
+                  "offset": 32
+                }
+              ],
+              "location": "PaginaPrincipal.preencheuOCampoDeBuscaCom(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1408738300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "clicou na lupa da pesquisa",
+            "match": {
+              "location": "PaginaPrincipal.clicouNaLupaDaPesquisa()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4232200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "mostrou o resultado da busca \"Natal\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Natal",
+                  "offset": 30
+                }
+              ],
+              "location": "PaginaPrincipal.mostrouOResultadoDaBusca(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validar site da Wikipedia",
+    "description": "",
+    "id": "validar-site-da-wikipedia",
+    "keyword": "Feature",
+    "uri": "PaginaPrincipal.feature"
+  }
+]
