@@ -7,7 +7,7 @@ formatter.feature({
   "keyword": "Feature"
 });
 formatter.before({
-  "duration": 1872691900,
+  "duration": 1687155300,
   "status": "passed"
 });
 formatter.scenario({
@@ -42,7 +42,7 @@ formatter.match({
   "location": "PaginaPrincipal.abriuOSite()"
 });
 formatter.result({
-  "duration": 2124634200,
+  "duration": 2220045300,
   "status": "passed"
 });
 formatter.match({
@@ -55,14 +55,14 @@ formatter.match({
   "location": "PaginaPrincipal.preencheuOCampoDeBuscaCom(String)"
 });
 formatter.result({
-  "duration": 87012900,
+  "duration": 115568900,
   "status": "passed"
 });
 formatter.match({
   "location": "PaginaPrincipal.clicouNaLupaDaPesquisa()"
 });
 formatter.result({
-  "duration": 1408738300,
+  "duration": 1698164900,
   "status": "passed"
 });
 formatter.match({
@@ -75,11 +75,11 @@ formatter.match({
   "location": "PaginaPrincipal.mostrouOResultadoDaBusca(String)"
 });
 formatter.result({
-  "duration": 4232200,
+  "duration": 4118600,
   "status": "passed"
 });
 formatter.after({
-  "duration": 14900,
+  "duration": 16000,
   "status": "passed"
 });
 });
