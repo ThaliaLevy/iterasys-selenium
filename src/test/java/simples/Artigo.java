@@ -40,5 +40,4 @@ public class Artigo {
     assertTrue(driver.getTitle().contains("Páscoa"));
 
     }
-
 }
